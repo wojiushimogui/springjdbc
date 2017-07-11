@@ -61,7 +61,7 @@ public class StudentDao {
         return name;
     }
     /**
-     * 插入一条学生信息
+     * 插入一条学生信息,bywu
      * */
     public void insertOneStudent(String name,Integer age){
         this.jdbcTemplate.update(
