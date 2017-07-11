@@ -71,6 +71,7 @@ public class StudentDao {
     }
     /**
      * 根据指定Id来更新学生的信息
+     * 练习git
      * */
     public void updateOneStudentById(Integer id,String name,Integer age){
         this.jdbcTemplate.update(
